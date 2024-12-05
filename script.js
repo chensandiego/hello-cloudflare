@@ -5,7 +5,7 @@ document.getElementById('couponForm').addEventListener('submit', async (event) =
   const resultElement = document.getElementById('result');
 
   try {
-    const response = await fetch('https://your-worker-domain.workers.dev/verify-coupon', {
+    const response = await fetch('https://mute-brook-128d.chen-chen.workers.dev/verify-coupon', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ code: couponCode }),
